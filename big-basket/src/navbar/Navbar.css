@@ -1,5 +1,9 @@
-body{
-    margin: 10px 10px 10px 10px ;
+.cr{
+    margin: 0px 0px 0px 0px ;
+    background-color: blue;
+    /* background-size: 10%; */
+    background-repeat: no-repeat;
+    /* background-origin: unset; */
 }
 .heading{
     /* background: blueviolet; */
