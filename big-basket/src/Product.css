@@ -14,14 +14,15 @@
   }
   
   .card img {
-    width: 100%;
+    width: 200px;
     height: 100%;
     object-fit: cover;
   }
   
   .card-inner {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
+    width: 200px;
     height: 100px;
     transition: transform 2s;
     transform-style: preserve-3d;
