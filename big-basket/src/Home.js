@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import Product from './Product';
 
 
 const Home = () => {
@@ -16,8 +17,11 @@ const Home = () => {
     },[])
 
     return (
-        <div>
-
+        <div className="cards">
+            { items.map( item => (
+                <Product key={items.id} item={item} />
+            ))
+            }            
         </div>
     )
 }
