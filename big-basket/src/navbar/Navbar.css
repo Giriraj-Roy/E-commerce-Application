@@ -1,11 +1,5 @@
-.cr{
-    margin: 0px 0px 0px 0px ;
-    background-color: blue;
-    /* background-size: 10%; */
-    background-repeat: no-repeat;
-    /* background-origin: unset; */
-}
-.heading{
-    /* background: blueviolet; */
-    color: chartreuse;
+.container{
+    display: inline-flex;
+    height: 50px;
+    /* background: black; */
 }

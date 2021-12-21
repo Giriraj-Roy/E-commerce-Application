@@ -3,26 +3,11 @@ import './Product.css';
 
 const Product = ( {item} ) => {
     return (
-        <div className="cards">
-
-            <div className='card'>
-                <div className='card-inner'>
-                    <div className='card-front'>
-                        <img className='card-img' src={item.image} alt='' />
-                    </div>
-                    
-                    <div className='card-back'>
-                        <h1>{item.title}</h1>
-                        <ul>
-                            
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-            
-
-
+        <div className="card-list">
+            <div className='grid-item'>
+                <img className='card-img' src={item.image} alt={item.title} />
+                <h1 className='price'>{"$ "+(item.price)}</h1>
+            </div>               
         </div>
     )
 }
