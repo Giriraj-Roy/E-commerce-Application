@@ -1,3 +1,8 @@
+.body{
+    background: lightgreen;
+}
 .grid-container{
-    display: grid;
+    display: table;
+    flex-direction: row ;
+    float: left;
 }

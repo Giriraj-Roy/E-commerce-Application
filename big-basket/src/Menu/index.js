@@ -4,7 +4,7 @@ import './Menu.css';
 const Menu = () => {
     return (
         <>
-            <button className='all'>All</button>
+            <button className='menucontainer'>All</button>
         </>
     )
 }
