@@ -6,8 +6,8 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className='cr'>
-            <Menu/>            
+        <div className='container'>
+            <Menu/> Hello from NAVBAR            
         </div>
     )
 }

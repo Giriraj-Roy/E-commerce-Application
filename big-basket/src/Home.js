@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Product from './Product';
+import Title from './Title/Title';
 
 
 const Home = () => {
@@ -17,12 +18,15 @@ const Home = () => {
     },[])
 
     return (
-        <div className="cards">
-            { items.map( item => (
-                <Product key={items.id} item={item} />
-            ))
-            }            
-        </div>
+        <>
+            <Title/>
+            <div className="grid-container">
+                { items.map( item => (
+                    <Product key={items.id} item={item} />
+                ))
+                }            
+            </div>
+        </>
     )
 }
 
