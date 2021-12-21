@@ -7,7 +7,10 @@ import './Navbar.css';
 const Navbar = () => {
     return (
         <div className='container'>
-            <Menu/> Hello from NAVBAR            
+            <Menu/>
+            <div className='productsRoute'>
+                CATEGORIES
+            </div>            
         </div>
     )
 }

@@ -1,17 +1,19 @@
 .card-list{
-  width: 100%;
-  display: flex;
+  width: 300px;
+  /* display: flex; */
   /* display: grid; */
-  /* display: table; */
-  /* justify-content: space-around; */
+  float: left;
+  display: flex table;
+  justify-content: space-around;
   /* flex-wrap: wrap; */
   /* margin: inline-flex; */
   background: cadetblue;
   margin: 10px 10px 10px 10px;
 }
 .grid-item{
-  display: flex;
-  /* display: table; */
+  /* display: flex; */
+  display: table;
+  /* float: left; */
   width: 300px;
   height: 300px;
 
@@ -19,9 +21,12 @@
 .card-img{
   width: inherit;
   height: inherit;
+  /* resize: auto; */
   border-radius: 40px;
   object-fit: cover;
 }
 .price{
   font-size: 20px;
+  padding: 10px;
+  font-family: cursive;
 }
