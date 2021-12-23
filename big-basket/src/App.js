@@ -1,21 +1,21 @@
 import React from 'react';
-import { BrowserRouter, Route} from 'react-router-dom';
+import { Route, Routes} from 'react-router-dom';
 import Categories from './Categories';
 import Home from './Home';
 
 
 const App = () => {
   return (
-    <>
-      <Home/>
-    </>
-    // <BrowserRouter>
-    //   <div>
-    //     <Route exact path="/" component={Home} />
-    //     <Route path="/categories" component={Categories} />
-    //   </div>
+    // <>
+    //   <Home/>
+    // </>
+    <React.Fragment>
+      <Routes>
+        <Route exact path="/" element={<Home/>} />
+        <Route path="/categories" element={<Categories/>} />
+      </Routes>
       
-    // </BrowserRouter>
+    </React.Fragment>
     
     
   )
