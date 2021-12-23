@@ -9,9 +9,14 @@ const Navbar = () => {
     return (
         <div className='container'>
             <Menu/>
-            {/* <div className='productsRoute'>
-                <Link to='/categories'>CATEGORIES</Link>
-            </div>             */}
+            <div className='productsRoute'>
+                <Link to='/'>Home Page</Link>
+                
+            </div>
+            <div className='productsRoute'>
+                
+                <Link to='/categories'>Categories</Link>
+            </div>             
         </div>
     )
 }
