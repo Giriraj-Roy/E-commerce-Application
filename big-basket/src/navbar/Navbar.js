@@ -16,7 +16,8 @@ const Navbar = () => {
             <div className='productsRoute'>
                 
                 <Link to='/categories'>Categories</Link>
-            </div>             
+            </div>
+                         
         </div>
     )
 }
