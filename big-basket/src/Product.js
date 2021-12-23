@@ -6,8 +6,10 @@ const Product = ( {key, item} ) => {
         <div className="card-list">
             <div id={key} className='grid-item'>
                 <img className='card-img' src={item.image} alt={item.title} />
-                <h1 className='price'>{"PRICE: $ "+(item.price)}</h1>
-            </div>               
+                <hr/>
+                <h1 className='price'>{"PRICE: $ "+(item.price)}</h1>               
+                
+            </div>
         </div>
     )
 }

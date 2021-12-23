@@ -5,4 +5,7 @@
     display: table;
     flex-direction: row ;
     float: left;
+    justify-content: space-around;
+    max-height: 300px;
+    max-width: 300px;
 }

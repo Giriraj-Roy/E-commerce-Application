@@ -9,7 +9,8 @@ import Navbar from './navbar/Navbar';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Navbar/>      
+      <Navbar/>
+      <hr/>      
       <App />
     </BrowserRouter>
     
