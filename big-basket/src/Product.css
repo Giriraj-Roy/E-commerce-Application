@@ -19,19 +19,29 @@
   /* margin: 10px; */
 
 }
+.grid-image{
+  height: 250px;
+}
 .card-img{
+  padding-top: 30px;
+  padding-bottom: 20px;
   min-width: inherit;
   min-height: inherit;
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 230px;
+  max-height: 220px;
   border-radius: 20px;
   object-fit: cover;
   position: relative;
+  display: block;
+  /* display: inline-block;
+  vertical-align: middle; */
+  margin-left: auto;
+  margin-right: auto;
 }
 .price{
   font-size: 20px;
   font-family: cursive;
-  /* bottom: 0px; */
+  bottom: 0px;
   padding-bottom: 10px;
   text-align: center;
   /* position: relative; */

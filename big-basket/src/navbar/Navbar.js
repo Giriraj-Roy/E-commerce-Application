@@ -9,13 +9,14 @@ const Navbar = () => {
     return (
         <div className='container'>
             <Menu/>
-            <div className='productsRoute'>
-                <Link to='/'>Home Page</Link>
+            <div>
+                {/* <Link to='/'>Home</Link> */}
+                <Link to='/'><button className='productsRoute'>Home</button></Link>
                 
             </div>
-            <div className='productsRoute'>
-                
-                <Link to='/categories'>Categories</Link>
+            <div>
+                {/* <Link to='/categories'>Categories</Link> */}
+                <Link to='/categories'><button className='productsRoute'>Categories</button></Link>
             </div>
                          
         </div>

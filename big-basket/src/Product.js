@@ -5,9 +5,11 @@ const Product = ( {key, item} ) => {
     return (
         <div className="card-list">
             <div id={key} className='grid-item'>
-                <img className='card-img' src={item.image} alt={item.title} />
-                <hr/>
-                <h1 className='price'>{"PRICE: $ "+(item.price)}</h1>               
+                <div className='grid-image'>
+                    <img className='card-img' src={item.image} alt={item.title} />
+                </div>
+                <hr/>                
+                <div className='price'>{"PRICE: $ "+(item.price)}</div>               
                 
             </div>
         </div>

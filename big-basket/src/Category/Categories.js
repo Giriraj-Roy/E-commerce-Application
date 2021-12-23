@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import ShowCategories from './ShowCategories';
+// import styled from 'styled-components';
 
 const Categories = () => {
 
@@ -17,8 +18,9 @@ const Categories = () => {
 
     return (
         <div>
-            <hr/>
-            <h1> <strong>Welcome to explore our <span>CATEGORIES</span></strong> </h1>
+            <>
+                <h1> <strong>Welcome to explore our <span>CATEGORIES</span></strong> </h1>
+            </>
             <div>
                 {category.map( ele => (
                     <ShowCategories key={ele._id} ele={ele}/>
