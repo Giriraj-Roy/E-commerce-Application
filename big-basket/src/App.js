@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes} from 'react-router-dom';
-import Categories from './Categories';
+import Categories from './Category/Categories';
 import Home from './Home';
 
 
