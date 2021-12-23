@@ -7,7 +7,7 @@
 }
 .productsRoute{
     /* margin-top: 2px; */
-    margin-left: 30px;
+    margin-left: 20px;
     padding-top: 2px;
     padding-left: 20px;
     padding-right: 20px;
@@ -17,9 +17,6 @@
     color: rgb(129, 248, 9);
     font-size: 30px;
     border-radius: 4px;
-    box-shadow: orange;
+    box-shadow: 5px 5px 30px 7px rgba(7, 189, 46, 0.25), -5px -5px 30px 7px rgba(34, 243, 34, 0.22);;
     background-color: rgb(252, 253, 253);
-}
-.productsRoute:hover{
-    color: chartreuse;
 }
