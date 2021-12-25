@@ -9,11 +9,13 @@ const Product = ( {key, item} ) => {
     //     <Route path= {`/products/${item.id}`}  element= {<Details key={item.id} item={item} />} />
     // </Routes>
 
+    
+
     return (
         <div className="card-list">
             <div id={key} className='grid-item'>
                 <div className='grid-image'>
-                    <Link to={{ pathname: `/products/`, query: { id: item.id }}} >    
+                    <Link to={{ pathname: `/products/${item.id}` /*, query: { id: item.id }*/}} >    
                         <img className='card-img' src={item.image} alt={item.title} />
                     </Link>
                 </div>

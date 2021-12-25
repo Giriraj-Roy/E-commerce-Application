@@ -1,0 +1,55 @@
+.detailContainer{
+    display: table;
+    scroll-behavior: smooth;
+    margin: 20px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.detailsPane{
+    display: flex;
+    float: left;
+}
+.description{
+    display: table;
+    margin-left: 40px;
+    box-shadow: 5px 5px 5px 5px rgba(7, 80, 189, 0.25), -5px -5px 5px 5px rgba(13, 11, 180, 0.22);
+    padding: 20px;
+    text-align: justify;
+    background: rgb(26, 149, 190);
+}
+.detailsDescription{
+    font-family: monospace;
+    font-size: 20px;
+}
+.detailsPrice{
+    display: flex;
+    font-size: 24px;
+}
+.rating{
+    display: flex;
+}
+.buy{
+    display: flex;
+    background-color: yellow;
+    width: 400px;
+    height: 40px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    font-size: 30px;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    font-weight: lighter;
+}
+.Addtocartbutton{
+    display: flex;
+    background-color: rgb(255, 174, 0);
+    width: 400px;
+    height: 40px;
+    /* padding: 10px; */
+    border-radius: 10px;
+    font-size: 30px;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+}
