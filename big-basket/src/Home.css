@@ -1,11 +1,9 @@
-.body{
-    background: lightgreen;
-}
 .grid-container{
+    border-radius: 50px;
+    width: 100%;
+    min-width: fit-content;
     display: table;
     flex-direction: row ;
-    float: left;
-    justify-content: space-around;
     max-height: 300px;
     max-width: 300px;
 }

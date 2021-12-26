@@ -3,11 +3,14 @@
   float: left;
   display: flex table;
   justify-content: space-around;
-  /* background: cadetblue; */
   margin: 10px 10px 10px 10px;
-  box-shadow: 5px 5px 5px 7px rgba(7, 80, 189, 0.25), -5px -5px 5px 7px rgba(13, 11, 180, 0.22);;
   max-height: 300px;
   max-width: 300px;
+}
+.card-list:hover{
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px 7px rgba(7, 80, 189, 0.25), -5px -5px 5px 7px rgba(13, 11, 180, 0.22);;
+  transition-duration: 0.8s;
 }
 .grid-item{
   /* display: flex; */
