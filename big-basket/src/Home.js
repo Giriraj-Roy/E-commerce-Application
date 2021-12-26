@@ -18,7 +18,7 @@ const Home = () => {
     },[])
 
     return (
-        <>
+        <div className='homecontainer'>
             <Title/>
             <div className="grid-container">
                 { items.map( item => (
@@ -26,7 +26,7 @@ const Home = () => {
                 ))
                 }            
             </div>
-        </>
+        </div>
     )
 }
 

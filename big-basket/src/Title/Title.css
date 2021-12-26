@@ -2,7 +2,19 @@
     align-items: center;
     display: flex;
     font-size: 50px;
+    width: fit-content;
+    margin: auto;
+    padding-right: 10px;
     font-family: monospace;
     justify-content: center;
     font-style: italic;
+    /* text-shadow: 2px 2px 1px  blue; */
+}
+.mycontainer:hover{
+    text-transform: capitalize;
+    border-right: 5px solid steelblue;
+    border-right-style:groove;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transition-duration: 0.3s;
 }
