@@ -7,18 +7,20 @@ import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className='container'>
-            <Menu/>
-            <div>
-                {/* <Link to='/'>Home</Link> */}
-                <Link to='/'><button className='productsRoute'>Home</button></Link>
-                
+        <div className='navContainer'>
+            <div className='container'>
+                <Menu/>
+                <div className='productRoute'>
+                    <Link to='/' className='productsRoute'>Home</Link>
+                    {/* <Link to='/'><button className='productsRoute'>Home</button></Link> */}
+                    
+                </div>
+                <div className='productRoute'>
+                    <Link to='/categories' className='productsRoute' >Categories</Link>
+                    {/* <Link to='/categories'><button >Categories</button></Link> */}
+                </div>
+                            
             </div>
-            <div>
-                {/* <Link to='/categories'>Categories</Link> */}
-                <Link to='/categories'><button className='productsRoute'>Categories</button></Link>
-            </div>
-                         
         </div>
     )
 }

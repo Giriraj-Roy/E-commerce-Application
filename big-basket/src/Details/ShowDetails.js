@@ -14,7 +14,7 @@ const ShowDetails = ( {key, item}) => {
         <React.Fragment>
             <div className='header'>
                     <div className='headingFirst'>
-                        <div style={{ margin: '15px' }}>{item.title}</div>
+                        <div style={{ margin: '15px' }}>{item.category}</div>
                         <div className='priceFirst'>
                             <div className='hiked'> ₹ <del>{hikedPrice}</del> </div>
                             
@@ -68,12 +68,12 @@ const ShowDetails = ( {key, item}) => {
                     
                 </div>
                 <div>
-                            <button className='buy'>Buy Now</button>
-                        </div>
-                        <br></br>
-                        <div>
-                            <button className='Addtocartbutton'>Add To Cart</button>
-                        </div>
+                    <button className='buy'>Buy Now</button>
+                </div>
+                <br></br>
+                <div>
+                    <button className='Addtocartbutton'>Add To Cart</button>
+                </div>
             </div>            
         </React.Fragment>
     )
