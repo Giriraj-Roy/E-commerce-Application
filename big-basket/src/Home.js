@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Product from './Product';
 import Title from './Title/Title';
+// import Footer from './Footer/Footer';
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
                 ))
                 }            
             </div>
+            {/* <Footer/> */}
         </div>
     )
 }

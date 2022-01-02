@@ -16,11 +16,11 @@ const Product = ( {key, item} ) => {
             <div id={key} className='grid-item'>
                 <div className='grid-image'>
                     <Link to={{ pathname: `/products/${item.id}` /*, query: { id: item.id }*/}} >    
-                        <img className='card-img' src={item.image} alt={item.title} />
+                        <img className='card-img' id="imgID" src={item.image} alt={item.title} />
                     </Link>
                 </div>
-                <hr/>                
-                <div className='price'>{"PRICE: $ "+(item.price)}</div>               
+                {/* <hr/>                 */}
+                <div className='price' id='priceID'>{"PRICE: ₹ "+(item.price)*75}</div>               
                 
             </div>
         </div>
