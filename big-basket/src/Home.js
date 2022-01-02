@@ -25,7 +25,7 @@ const Home = () => {
             <Title/>
             <div className="grid-container">
                 { loading ? <Loading/> : items.map( item => (
-                    <Product key={items.id} item={item} />
+                    <Product className="grid-container" key={items.id} item={item} />
                 ))
                 }            
             </div>

@@ -3,9 +3,7 @@ import './Menu.css';
 
 const Menu = () => {
     return (
-        <>
-            <div className='menucontainer'>All</div>
-        </>
+        <div className='menucontainer'>All</div>
     )
 }
 

@@ -4,7 +4,7 @@
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    background: red;
+    background: black;
     top: 300px;
   }
   .circle1 {
@@ -12,18 +12,18 @@
     top: 0px;
     width: 0px;
     height: 0px;
-    border-right: 60px solid transparent;
-    border-top: 60px solid #eecd14;
-    border-left: 60px solid transparent;
-    border-bottom: 60px solid transparent;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
+    border-right: 55px solid transparent;
+    border-top: 55px solid rgb(0, 96, 205);
+    border-left: 55px solid transparent;
+    border-bottom: 55px solid transparent;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
     -moz-transform: rotate(320deg);
     -webkit-transform: rotate(320deg);
     -o-transform: rotate(320deg);
     -ms-transform: rotate(320deg);
-    animation: spin1 0.5s infinite linear;
-    -webkit-animation: spin1 0.5s infinite linear;
+    animation: spin1 0.8s infinite linear;
+    -webkit-animation: spin1 0.8s infinite linear;
     
   }
   .circle2 {
@@ -31,36 +31,36 @@
     top: 0px;
     width: 0px;
     height: 0px;
-    border-right: 60px solid transparent;
-    border-top: 60px solid #eecd14;
-    border-left: 60px solid transparent;
-    border-bottom: 60px solid transparent;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
+    border-right: 55px solid transparent;
+    border-top: 55px solid rgb(0, 96, 205);
+    border-left: 55px solid transparent;
+    border-bottom: 55px solid transparent;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
     -moz-transform:rotate(80deg);
     -webkit-transform:rotate(80deg);
     -o-transform:rotate(80deg);
     -ms-transform:rotate(80deg);
-    animation: spin2 0.5s infinite linear;
-    -webkit-animation: spin2 0.5s infinite linear;
+    animation: spin2 0.8s infinite linear;
+    -webkit-animation: spin2 0.8s infinite linear;
   }
   .circle3 {
     position: absolute;
     top: 0px;
     width: 0px;
     height: 0px;
-    border-right: 60px solid transparent;
-    border-top: 60px solid #eecd14;
-    border-left: 60px solid transparent;
-    border-bottom: 60px solid transparent;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
+    border-right: 55px solid transparent;
+    border-top: 55px solid rgb(0, 96, 205);
+    border-left: 55px solid transparent;
+    border-bottom: 55px solid transparent;
+    border-top-left-radius: 55px;
+    border-top-right-radius: 55px;
     -moz-transform:rotate(200deg);
     -webkit-transform:rotate(200deg);
     -o-transform:rotate(200deg);
     -ms-transform:rotate(200deg);
-    animation: spin3 0.5s infinite linear;
-    -webkit-animation: spin3 0.5s infinite linear;
+    animation: spin3 0.8s infinite linear;
+    -webkit-animation: spin3 0.8s infinite linear;
   }
   /* animations */
   
