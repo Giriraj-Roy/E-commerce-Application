@@ -4,7 +4,6 @@ import Product from './Product';
 import Title from './Title/Title';
 // import Footer from './Footer/Footer';
 
-
 const Home = () => {
 
     const [ items, setItems] = useState([]);
