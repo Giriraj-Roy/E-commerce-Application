@@ -2,8 +2,8 @@
     border-radius: 50px;
     width: 100%;
     min-width: fit-content;
-    display: table;
-    flex-direction: row ;
+    display: flex;
     max-height: 300px;
     max-width: 300px;
+    background-color: black;
 }
