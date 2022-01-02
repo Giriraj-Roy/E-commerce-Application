@@ -4,7 +4,7 @@
 .container{
     display: flex;
     width: 500px;
-    min-width: fit-content;
+    min-width: fit-content ;
     border-bottom-right-radius: 80px;
     /* border: black; */
     height: 50px;
