@@ -19,6 +19,11 @@ const Navbar = () => {
                     <Link to='/categories' className='productsRoute' >Categories</Link>
                     {/* <Link to='/categories'><button >Categories</button></Link> */}
                 </div>
+                <div className='productRoute'>
+                    <Link to='/games' className='productsRoute'>Play Games</Link>
+                    {/* <Link to='/'><button className='productsRoute'>Home</button></Link> */}
+                    
+                </div>
                             
             </div>
         </div>
