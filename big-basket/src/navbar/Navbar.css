@@ -1,9 +1,10 @@
 .navContainer{
     background-image: url(./navback.jpg);
+    /* width: 100%; */
 }
 .container{
     display: flex;
-    width: 500px;
+    width: 600px;
     min-width: fit-content ;
     border-bottom-right-radius: 80px;
     /* border: black; */
