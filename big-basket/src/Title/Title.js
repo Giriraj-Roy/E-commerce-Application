@@ -8,7 +8,7 @@ const Title = () => {
             <div className='mycontainer'>
                 <span style={{color: "white"}}>Collections</span>
                 <div className='mycarthome'>
-                    <div  style={{margin: 'auto' }}><Link to='/cart'><span style={{textDecoration: "none"}}>My Cart</span></Link></div>
+                    <div  style={{margin: 'auto' }}><Link to='/cart' style={{color: "whitesmoke",textDecoration: "none"}}>My Cart</Link></div>
                 </div>
             </div>
             
