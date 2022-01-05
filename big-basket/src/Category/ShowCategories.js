@@ -6,8 +6,8 @@ const ShowCategories = ( {key, ele}) => {
     return (
         <div id={key} className='category'>
             <div className='box'>
-                {ele}
-                <Link to={{pathname: `/categories/${ele}`}}></Link>
+                
+                <Link to={{pathname: `/categories/${ele}`}} style={{color: "black",textDecoration: "none"}}>{ele}</Link>
             </div>            
         </div>
     )
