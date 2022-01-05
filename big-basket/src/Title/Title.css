@@ -26,6 +26,7 @@
     transition-duration: 0.3s;
 }
 .mycarthome{
+    text-decoration: none;
     display: flex;
     justify-content: center;
     vertical-align: middle;
