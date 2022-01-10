@@ -14,7 +14,7 @@ const ShowCategories = ( {key, ele}) => {
     useEffect( () => {
         const fetchItems = async ()=> {
             const result = await axios(`https://fakestoreapi.com/products/category/${ele}`);
-            setItems(result.data)
+            setItems(result.data.slice(-3))
             console.log(result.data)
             // setLoading(false);
         }
@@ -24,15 +24,16 @@ const ShowCategories = ( {key, ele}) => {
 
     return (
         <div id={key} className='category'>
-            <div className='box'>
-                
+            <div className='box'>                
                 <Link to={{pathname: `/categories/${ele}`}} style={{color: "black",textDecoration: "none"}}>{ele}</Link>
             </div>
 
             <Link to={{pathname: `/categories/${ele}`}} style={{color: "black",textDecoration: "none"}}><span className='seeMore'>See More</span></Link>
-            {items.map( item => (
-                <ShowProducts key={items.id} item={item} />
-            ))}            
+            <div style={{display: 'flex'}}>
+                {items.map( item => (
+                    <ShowProducts key={items.id} item={item} />
+                ))}
+            </div>            
         </div>
     )
 }

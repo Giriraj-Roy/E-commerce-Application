@@ -1,11 +1,11 @@
 .show-card-list{
-    width: 100px;
+    width: 30vw;
     float: left;
     display: flex;
     justify-content: space-around;
     margin: 50px 10px 10px 10px;
-    max-height: 100px;
-    max-width: 100px;
+    max-height: 30vw;
+    max-width: 30vw;
   }
   .show-card-list:hover{
     border-radius: 40px;
@@ -17,20 +17,20 @@
     /* display: flex; */
     /* gap: 20px; */
     /* float: none; */
-    width: 100px;
-    height: 100px;
+    width: 30vw;
+    height: 30vw;
   }
   .show-grid-image{
-  height: 50px;
+    height: 15vw;
     margin-bottom: 10px;
   }
   .show-card-img{
-  padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 20px;
     min-width: inherit;
     min-height: inherit;
-    max-width: 30px;
-    max-height: 20px;
+    max-width: 20vw;
+    max-height: 20vw;
     border-radius: 20px;
     object-fit: cover;
     position: relative;
