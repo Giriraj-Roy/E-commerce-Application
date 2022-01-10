@@ -24,7 +24,7 @@ const Categories = () => {
             <>
                 <div className='mycontainer'> <span style={{ justifyContent: "center", fontSize: "30px"}}>Welcome to explore our <span>CATEGORIES</span></span> </div>
             </>
-            <div>
+            <div style={{display: 'block'}}>
                 { loading ? <Loading/> : category.map( ele => (
                     <ShowCategories key={ele._id} ele={ele}/>
                 ))}
